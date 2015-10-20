@@ -4,8 +4,8 @@ ruby "2.2.1"
 gem 'tinymce-rails'
 gem "bootstrap_form"
 
-gem "compass-rails"
-gem "compass"
+#gem "compass-rails"
+#gem "compass"
 
 gem "jbuilder"
 
@@ -36,8 +36,11 @@ gem "pundit"
 gem "paperclip"
 gem "aws-sdk", "< 2.0"
 
+gem "sprockets"
+
 gem "jquery-rails"
-gem "sass-rails", "~> 5.0"
+gem "compass-rails", github: "Compass/compass-rails", branch: "master"
+gem "sass-rails"
 gem "uglifier"
 gem "bootstrap-sass"
 gem "font-awesome-sass"
