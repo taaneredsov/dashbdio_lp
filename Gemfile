@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby "2.2.1"
+ruby "2.3.1"
 gem 'tinymce-rails'
 gem "bootstrap_form"
 
@@ -33,7 +33,7 @@ gem "country_select"
 gem "high_voltage"
 gem "devise"
 gem "pundit"
-gem "paperclip"
+gem "paperclip", "~> 5.2.1"
 gem "aws-sdk", "< 2.0"
 
 gem "sprockets"
