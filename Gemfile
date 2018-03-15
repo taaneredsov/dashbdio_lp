@@ -1,11 +1,11 @@
 source "https://rubygems.org"
 
-ruby "2.2.1"
+ruby "2.3.1"
 gem 'tinymce-rails'
 gem "bootstrap_form"
 
-gem "compass-rails"
-gem "compass"
+#gem "compass-rails"
+#gem "compass"
 
 gem "jbuilder"
 
@@ -33,11 +33,14 @@ gem "country_select"
 gem "high_voltage"
 gem "devise"
 gem "pundit"
-gem "paperclip"
+gem "paperclip", "~> 5.2.1"
 gem "aws-sdk", "< 2.0"
 
+gem "sprockets"
+
 gem "jquery-rails"
-gem "sass-rails", "~> 5.0"
+gem "compass-rails", github: "Compass/compass-rails", branch: "master"
+gem "sass-rails"
 gem "uglifier"
 gem "bootstrap-sass"
 gem "font-awesome-sass"
